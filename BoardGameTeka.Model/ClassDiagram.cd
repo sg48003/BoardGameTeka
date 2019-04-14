@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BoardGameTeka.Model.Entities.BoardGame">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAQAUAAAAACAEAAAgAAAAACEg=</HashCode>
+      <FileName>Entities\BoardGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GameType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Entities.GameType">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\GameType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Entities.Member">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAASQQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Member.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MembershipType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Entities.MembershipType">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\MembershipType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Entities.Rental">
+    <Position X="12" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAACAAAAAAACAEIAAAAEAUAAAAAAAA=</HashCode>
+      <FileName>Entities\Rental.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Employee" />
+      <Property Name="Member" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Entities.Role">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Entities.User">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEQAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Enums_Dictionaries.GameTypeList">
+    <Position X="3.75" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BoardGameTeka.Model.Enums_Dictionaries.GameTypeList.GameTypeEnum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Enums_Dictionaries\GameTypeList.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums_Dictionaries\GameTypeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Enums_Dictionaries.MembershipTypeList">
+    <Position X="9.25" Y="5.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BoardGameTeka.Model.Enums_Dictionaries.MembershipTypeList.MembershipTypeEnum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Enums_Dictionaries\MembershipTypeList.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums_Dictionaries\MembershipTypeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Enums_Dictionaries.Rolelist">
+    <Position X="9.25" Y="2.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BoardGameTeka.Model.Enums_Dictionaries.Rolelist.RoleEnum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Enums_Dictionaries\RoleList.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums_Dictionaries\RoleList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Factory.BoardGameFactory">
+    <Position X="1.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\BoardGameFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Factory.MemberFactory">
+    <Position X="1.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\MemberFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Factory.RentalFactory">
+    <Position X="1.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\RentalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameTeka.Model.Factory.UserFactory">
+    <Position X="1.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\UserFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BoardGameTeka.Model.IRepository.IBoardGameRepository" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAABgAAAEAAQDAAABQAAAAACBEAAAGgAAAAAAA=</HashCode>
+      <FileName>IRepository\IBoardGameRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardGameTeka.Model.IRepository.IMemberRepository" Collapsed="true">
+    <Position X="1.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQAAAAAAAAAAAAASAAYgAAAEAAAAAAQAABAA=</HashCode>
+      <FileName>IRepository\IMemberRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardGameTeka.Model.IRepository.IRentalRepository" Collapsed="true">
+    <Position X="1.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAMAAAAAAAAIAAAABARAAAABRAAABAAAAAAAAAA=</HashCode>
+      <FileName>IRepository\IRentalRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardGameTeka.Model.IRepository.IUserRepository" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QBAAAEAAAAIIAAAAAAAAIEAAAAAAAAAAEEAAgAAAAAA=</HashCode>
+      <FileName>IRepository\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

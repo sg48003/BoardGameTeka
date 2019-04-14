@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameTeka.AppStarter", "BoardGameTeka\BoardGameTeka.AppStarter.csproj", "{F93CD038-B9F2-41CA-AF82-9DE9F20E9355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameTeka.PresentationLayer", "BoardGameTeka.PresentationLayer\BoardGameTeka.PresentationLayer.csproj", "{BD405FFE-5F2F-4EFF-B29A-7B63BACADF35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameTeka.Model", "BoardGameTeka.Model\BoardGameTeka.Model.csproj", "{B95959AC-9119-4C60-85A0-8E8C69F29B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameTeka.BaseLib", "BoardGameTeka.BaseLib\BoardGameTeka.BaseLib.csproj", "{EBA461E9-7921-4A9E-85AC-D6F8983870F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameTeka.MemoryBasedDAL", "BoardGameTeka.MemoryBasedDAL\BoardGameTeka.MemoryBasedDAL.csproj", "{0C9F2D69-BB5C-4C0A-A40C-8978AE646CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameTeka.Controllers", "BoardGameTeka.Controllers\BoardGameTeka.Controllers.csproj", "{BEB6F2FE-D4FA-40F2-A7A1-90DA7486F6FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameTeka.Tests", "BoardGameTeka.Test\BoardGameTeka.Tests.csproj", "{D1307289-F421-4C6E-ACF3-A164B5E76CB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F93CD038-B9F2-41CA-AF82-9DE9F20E9355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93CD038-B9F2-41CA-AF82-9DE9F20E9355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93CD038-B9F2-41CA-AF82-9DE9F20E9355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93CD038-B9F2-41CA-AF82-9DE9F20E9355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD405FFE-5F2F-4EFF-B29A-7B63BACADF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD405FFE-5F2F-4EFF-B29A-7B63BACADF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD405FFE-5F2F-4EFF-B29A-7B63BACADF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD405FFE-5F2F-4EFF-B29A-7B63BACADF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95959AC-9119-4C60-85A0-8E8C69F29B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95959AC-9119-4C60-85A0-8E8C69F29B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95959AC-9119-4C60-85A0-8E8C69F29B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95959AC-9119-4C60-85A0-8E8C69F29B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA461E9-7921-4A9E-85AC-D6F8983870F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA461E9-7921-4A9E-85AC-D6F8983870F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA461E9-7921-4A9E-85AC-D6F8983870F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA461E9-7921-4A9E-85AC-D6F8983870F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9F2D69-BB5C-4C0A-A40C-8978AE646CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9F2D69-BB5C-4C0A-A40C-8978AE646CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9F2D69-BB5C-4C0A-A40C-8978AE646CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9F2D69-BB5C-4C0A-A40C-8978AE646CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB6F2FE-D4FA-40F2-A7A1-90DA7486F6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB6F2FE-D4FA-40F2-A7A1-90DA7486F6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB6F2FE-D4FA-40F2-A7A1-90DA7486F6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB6F2FE-D4FA-40F2-A7A1-90DA7486F6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1307289-F421-4C6E-ACF3-A164B5E76CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1307289-F421-4C6E-ACF3-A164B5E76CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1307289-F421-4C6E-ACF3-A164B5E76CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1307289-F421-4C6E-ACF3-A164B5E76CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAC76AB1-3EA3-4CA5-AF07-42DA5FE78AD4}
+	EndGlobalSection
+EndGlobal
